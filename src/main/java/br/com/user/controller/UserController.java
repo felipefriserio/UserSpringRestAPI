@@ -15,7 +15,7 @@ import br.com.user.model.User;
 import br.com.user.service.UserService;
 
 @RestController
-@CrossOrigin(origins = "*")
+//@CrossOrigin(origins = "*")
 @RequestMapping("/user")
 public class UserController {
 	
