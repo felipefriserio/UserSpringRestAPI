@@ -24,6 +24,7 @@ public class UserController {
 	
 	@GetMapping("/find/{id}")
 	public Optional<User> findById(@PathVariable int id){
+		System.out.println("passou");
 		return this.userService.findById(id);
 	}
 	
